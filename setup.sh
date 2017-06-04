@@ -14,6 +14,7 @@ apt_packages+=('libgmp-dev')
 apt_packages+=('locales')
 apt_packages+=('m4')
 apt_packages+=('opam')
+apt_packages+=('silversearcher-ag')
 apt_packages+=('vim')
 apt_packages+=('z3')
 
