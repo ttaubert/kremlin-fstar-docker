@@ -16,6 +16,7 @@ apt_packages+=('m4')
 apt_packages+=('opam')
 apt_packages+=('silversearcher-ag')
 apt_packages+=('vim')
+apt_packages+=('wget')
 apt_packages+=('z3')
 
 # Install packages.

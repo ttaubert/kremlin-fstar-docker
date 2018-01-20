@@ -1,4 +1,4 @@
-FROM ubuntu:17.04
+FROM ubuntu:latest
 MAINTAINER Tim Taubert <tim@timtaubert.de>
 
 RUN useradd -d /home/kremlin -s /bin/bash -m kremlin
@@ -28,7 +28,7 @@ ENV HOST localhost
 ENV DOMSUF localdomain
 
 # KreMLin and F* binaries.
-ENV PATH "${PATH}:/home/kremlin/bin/kremlin:/home/kremlin/.opam/system/bin"
+ENV PATH "${PATH}:/home/kremlin/bin/fstar/bin:/home/kremlin/bin/kremlin"
 
 # Set a default command for debugging.
 CMD ["/bin/bash", "--login"]
